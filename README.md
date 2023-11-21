@@ -19,6 +19,10 @@ Esto lo guardamos en el directorio *conf*
 Si no otra forma es buscar el script de cada archivo, copiarlo y pegarlo en la carpeta creada "conf" donde dentro de ella se crean estos dos ficheros.
 
 
+## 2.
+
+Ahora procedemos a añadir todos los ficheros de configuración para que funcione el servidor DNS. Estos estarán localizados en el directorio *"configuración"*.
+
 - Empezamos añadiendo en el __docker-compose.yml__ un contenedor **apache**, un **servidor DNS** y un **cliente**.
 
 Cuyo script quedará tal que así:
