@@ -85,10 +85,18 @@ Recordar que todos estos archivos están subidos para poder apreciar mejor su co
 
 ## 3.
 
-- Creamos otro directorio. En mi caso, lo llamo "paginas" donde crearemos dos ficheros html.
+- Creamos otro directorio. En mi caso, lo llamo "paginas" donde crearemos dos ficheros html (También subidos al repositorio).
 
 ## 4.
 
 - Finalmente, comprobamos que el contenedor cliente funciona a la perfección con un ***dig***.
 
- - - Para ello haremos
+ - - Para ello haremos los siguientes comandos:
+
+```
+dig 192.168.1.1 www.fabulasoscuras.com
+
+dig 192.168.1.1 www.fabulasmaravillosas.com
+
+
+```
