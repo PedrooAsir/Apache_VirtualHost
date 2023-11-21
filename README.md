@@ -1,4 +1,23 @@
-# Apache + Virtual Host
+# Instalación de Apache + Virtual Host
+
+## 1. 
+
+Empezamos creando los ficheros de configuración necesarios para poder arrancar el contenedor de apache. Para ello usaremos los siguientes comandos:
+
+```
+$ docker run --rm httpd:2.4 cat /usr/local/apache2/conf/httpd.conf > httpd.conf
+
+```
+
+```
+$ docker run --rm httpd:2.4 cat /usr/local/apache2/conf/mime.types > mime.types
+
+```
+
+Esto lo guardamos en el directorio *conf*
+
+Si no otra forma es buscar el script de cada archivo, copiarlo y pegarlo en la carpeta creada "conf" donde dentro de ella se crean estos dos ficheros.
+
 
 - Empezamos añadiendo en el __docker-compose.yml__ un contenedor **apache**, un **servidor DNS** y un **cliente**.
 
@@ -53,4 +72,4 @@ networks:
     external: true
 
 ```
-sdesd
+
