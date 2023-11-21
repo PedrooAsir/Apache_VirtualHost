@@ -89,3 +89,6 @@ Recordar que todos estos archivos están subidos para poder apreciar mejor su co
 
 ## 4.
 
+- Finalmente, comprobamos que el contenedor cliente funciona a la perfección con un ***dig***.
+
+ - - Para ello haremos
