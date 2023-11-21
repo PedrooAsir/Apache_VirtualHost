@@ -98,3 +98,5 @@ dig 192.168.1.1 www.fabulasoscuras.com
 
 dig 192.168.1.1 www.fabulasmaravillosas.com
 ```
+
+**RECORDATORIO: Para saber si hacemos bien el dig, tenemos que poner la IP del servidor / DNS que se configuró anteriormente en el docker-compose.yml**
