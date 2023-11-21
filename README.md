@@ -80,3 +80,10 @@ networks:
 Cabe recalcar que no hay que olvidarse de crear un directorio *zonas* donde crearemos los ficheros: "db.fabulasoscuras.int" y "db.fabulasmaravillosas.int". 
 
 Recordar que todos estos archivos están subidos para poder apreciar mejor su contenido.
+
+## 3.
+
+- Creamos otro directorio. En mi caso, lo llamo "paginas" donde crearemos dos ficheros html.
+
+## 4.
+
