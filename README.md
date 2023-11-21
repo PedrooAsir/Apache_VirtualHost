@@ -16,7 +16,7 @@ $ docker run --rm httpd:2.4 cat /usr/local/apache2/conf/mime.types > mime.types
 
 Esto lo guardamos en el directorio *conf*
 
-Si no otra forma es buscar el script de cada archivo, copiarlo y pegarlo en sus respectivos ficheros que se crearan dentro de la carpeta *conf*.
+Si no otra forma es buscar el script de cada archivo, copiarlo y pegarlo en sus respectivos ficheros que crearemos dentro de la carpeta *conf*.
 
 
 ## 2.
