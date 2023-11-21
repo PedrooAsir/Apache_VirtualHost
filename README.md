@@ -76,9 +76,3 @@ networks:
     external: true
 
 ```
-# Apache_VirtualHost
-# Apache_VirtualHost
-# Apache_Virtualhost
-# Apache_Virtualhost
-# Apache_Virtualhost
-# Apache_Virtualhost
