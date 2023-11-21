@@ -91,7 +91,7 @@ Recordar que todos estos archivos están subidos para poder apreciar mejor su co
 
 - Finalmente, comprobamos que el contenedor cliente funciona a la perfección con un ***dig***.
 
- - - Para ello haremos los siguientes comandos:
+ - Para ello haremos los siguientes comandos:
 
 ```
 dig 192.168.1.1 www.fabulasoscuras.com
