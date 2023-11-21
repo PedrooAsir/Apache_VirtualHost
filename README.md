@@ -1,6 +1,6 @@
 # Apache + Virtual Host
 
-- Empezamos añadiendo en el docker compose un contenedor **apache**, un **servidor DNS** y un **cliente**.
+- Empezamos añadiendo en el __docker-compose.yml__ un contenedor **apache**, un **servidor DNS** y un **cliente**.
 
 Cuyo script quedará tal que así:
 
