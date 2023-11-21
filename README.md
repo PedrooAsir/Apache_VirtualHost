@@ -21,7 +21,7 @@ Si no otra forma es buscar el script de cada archivo, copiarlo y pegarlo en la c
 
 ## 2.
 
-Ahora procedemos a añadir todos los ficheros de configuración Para que funcione el servidor DNS. Estos se subirán en el repositorio. . Estarán localizados en el directorio *"configuración"*.
+Ahora procedemos a añadir todos los ficheros de configuración para que funcione el servidor DNS. Estos se subirán en el repositorio. . Estarán localizados en el directorio *"configuración"*.
 
 - Empezamos añadiendo en el __docker-compose.yml__ un contenedor **apache**, un **servidor DNS** y un **cliente**.
 
