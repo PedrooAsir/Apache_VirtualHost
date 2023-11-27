@@ -1,6 +1,6 @@
 services:
   servidor_apache:
-    container_name: asir_apache_web
+    container_name: asir_apache_web_2
     image: httpd:latest
     ports:
       - "80:80"
@@ -13,7 +13,7 @@ services:
         ipv4_address: 192.168.1.14
 
   servidor_dns:
-    container_name: asir_servidor_dns
+    container_name: asir_servidor_dns_2
     image: ubuntu/bind9
     ports:
       - "53:53/tcp"
@@ -29,8 +29,8 @@ services:
 
   
   cliente:
-    container_name: asir_cliente_web
-    image: ubuntu
+    container_name: asir_cliente_web_2
+    image: alpine
     platform: linux/amd64
     tty: true
     stdin_open: true
