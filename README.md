@@ -116,5 +116,8 @@ Listen 80
     DirectoryIndex prueba.html
 </VirtualHost>
 
-
 ```
+
+Una vez hecho y configurado lo anterior, vamos al cliente y descargaremos el Lynx con *apt add lynx*.
+
+Para hacer una consulta con dicho comando, sería --> **lynx www.fabulasoscuras.int:80**
