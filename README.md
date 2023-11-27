@@ -100,3 +100,21 @@ dig 192.168.1.1 www.fabulasmaravillosas.com
 ```
 
 **RECORDATORIO: Para saber si hacemos bien el dig, tenemos que poner la IP del servidor / DNS que se configuró anteriormente en el docker-compose.yml**
+
+## 5. DirectoryIndex , Virtual Host
+
+Empezamos yendo al archivo **httpd.conf** y buscamos un apartado donde pone "Listen 80" en el que debajo pondremos la configuración de los virtual hosts.
+
+Por el lado de la ruta, tienen que ser las carpetas donde están los ficheros .html y aginárselo a los servers que queramos, como puede ser "fabulasoscuras" que está dentro de la carpeta "ww1".
+
+- Ejemplo:
+```
+Listen 80
+<VirtualHost *:80>
+    DocumentRoot /usr/local/apache2/htdocs/ww1
+    ServerName www.fabulasoscuras.int
+    DirectoryIndex prueba.html
+</VirtualHost>
+
+
+```
